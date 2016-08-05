@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+      <header>
+         <h1>Bear slideshow </h1>
+         <p>Bear slideshow,  using Bootstrap 3 Default Slidehsow (Carousel).</p>
+      </header>
+
+        <section id="box-slider" class="col-md-7 center-block" style="float:none;">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+
+                    <div class="arrow">
+                        <a class="left carousel-control" href="#slider" role="button" data-slide="next">
+                            <i class="glyphicon  glyphicon-chevron-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#slider" role="button" data-slide="prev">
+                            <i class="glyphicon  glyphicon-chevron-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="slider" class="carousel slide" data-ride="carousel">
+                    <div class="indicators-box">
+                        <div id="indicatorsTitle" class="title">
+                            <i id="btnToggleIndicators" class="glyphicon glyphicon-th-list"></i>
+                        </div>
+                        <ol class="carousel-indicators"></ol>
+                    </div>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item">
+                            <a href="#"><img data-name="Bear" src="https://assets.imgix.net/unsplash/bear.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                        </div>
+                            <div class="item">
+                                <a href="#"><img data-name="redleaf" src="https://assets.imgix.net/examples/redleaf.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img data-name="snake" src="https://assets.imgix.net/examples/snake.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img data-name="treefrog" src="https://assets.imgix.net/examples/treefrog.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img data-name="puffins" src="https://assets.imgix.net/examples/puffins.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img data-name="newt" src="https://assets.imgix.net/examples/newt.jpg?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img data-name="lorie" src="https://assets.imgix.net/examples/lorie.png?usm=20&auto=format%2Cenhance&fit=crop&h=300&w=800" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </html>
